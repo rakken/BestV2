@@ -1,0 +1,77 @@
+table{
+	font-size: 11px;
+	text-align:center;
+}
+th{
+	text-align:center;
+}
+.gauche{
+	text-align:left;
+}
+.menu{
+	margin-top:10px;
+	padding-left:30px;	
+	padding-right:30px;
+}
+.tdValide{
+	padding:none;
+	border: none;
+}
+.Tdlarge{
+	width:70%;
+}
+body {
+	background-color:#F7F5F5;
+	
+}
+.banniere{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+.contenu{
+	padding-left:20px;
+	margin-right:20px;
+}
+a{
+	color:#336699;
+}
+.footer{
+	color:#336699;
+	padding-left:20px;
+	text-align:center;
+}
+.navbar.navbar-default{
+	background-color:white;
+	border-color:#336699;
+	border-left-color:white;
+	border-right-color:white;
+	
+}
+.navbar.navbar-default a,li, .navbar.navbar-default li a{
+	color:#336699;
+}
+.navbar.navbar-default li  a:hover, .navbar.navbar-default li  a:focus{
+	background-color: #336699;
+	color:white;
+	border-radius: 5px;
+}
+.navbar-bold{
+	font-weight:bold;
+	font-size: 16px;
+}
+.container{
+	background-color:white;
+}
+.bande_horizontale{ 
+	border: none;
+	margin-right:20px;
+	height: 1px; 
+	background-color: #336699; 
+}
+.btn.btn-primary{
+	background-color: #336699;
+}
+.btn.btn-primary:hover{
+	background-color: white;
+	color: #336699;
+}
