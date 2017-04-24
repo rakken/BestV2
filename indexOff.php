@@ -1,5 +1,5 @@
 <html>
-	<!-- l'entête -->
+	<!-- l'entÃªte -->
 	<?php 
 		include("entete.php"); 
 		 unset($_SESSION['loginOK']); ?>
@@ -18,7 +18,8 @@
 					
 					<?php
 						include("connect.php"); 
-
+						// on cherche dans la base de donnÃ©es toutes les entrÃ©es prÃ©sente.
+						$reponse = $bdd->query('SELECT * FROM bestv2.server ORDER BY Standalone');
 					?>
 					<!-- Formulaire pour la recherche -->
 					<form action=".\seek2.php" method="post" onsubmit="return">
@@ -53,7 +54,7 @@
 							</tr>
 						</thead>
 						<?php
-							// Affichage des données trouvées.
+							// Affichage des donnÃ©es trouvÃ©es.
 							while ($donnees = $reponse->fetch())
 							{
 							?>
@@ -150,7 +151,7 @@
 			</div>
 		</div>	
 		<?php										
-			$reponse->closeCursor(); // Termine le traitement de la requête
+			$reponse->closeCursor(); // Termine le traitement de la requÃªte
 		?>
 	</body>
 </html>																
